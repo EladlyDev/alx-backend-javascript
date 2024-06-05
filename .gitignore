@@ -2,4 +2,4 @@ base
 node_modules
 *~*
 *#*
-main*
+main.js
