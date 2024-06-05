@@ -57,3 +57,9 @@ function executeWork(employee: any): void {
         employee.workTeacherTasks();
     }
 }
+
+type Subjects = 'Math' | 'History';
+
+function teachClass(todayClass: Subjects): string {
+    return `Teaching ${todayClass}`;
+}
